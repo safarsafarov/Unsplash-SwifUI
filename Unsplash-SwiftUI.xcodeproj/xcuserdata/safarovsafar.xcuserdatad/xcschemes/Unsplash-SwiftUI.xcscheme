@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "649DD45CE56B932FC4E126B6"
+               BuildableName = "Unsplash-SwiftUI.app"
+               BlueprintName = "Unsplash-SwiftUI"
+               ReferencedContainer = "container:Unsplash-SwiftUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "649DD45CE56B932FC4E126B6"
+            BuildableName = "Unsplash-SwiftUI.app"
+            BlueprintName = "Unsplash-SwiftUI"
+            ReferencedContainer = "container:Unsplash-SwiftUI.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
