@@ -13,6 +13,7 @@
 		649DDE1040ED97D783CF9725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DDFFFBF77FA33643092EA /* ContentView.swift */; };
 		F6E5629C2516968D00DA348E /* Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5629B2516968D00DA348E /* Unsplash.swift */; };
 		F6E5629F2516991400DA348E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5629E2516991400DA348E /* Models.swift */; };
+		F6E562A325169A8300DA348E /* UnsplashStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E562A225169A8300DA348E /* UnsplashStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		649DDFFFBF77FA33643092EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6E5629B2516968D00DA348E /* Unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash.swift; sourceTree = "<group>"; };
 		F6E5629E2516991400DA348E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F6E562A225169A8300DA348E /* UnsplashStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				649DD9E426C802DCB624A67C /* Unsplash_SwiftUIApp.swift */,
 				649DDFFFBF77FA33643092EA /* ContentView.swift */,
 				F6E5629E2516991400DA348E /* Models.swift */,
+				F6E562A225169A8300DA348E /* UnsplashStore.swift */,
 			);
 			path = "Unsplash-SwiftUI";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				F6E5629C2516968D00DA348E /* Unsplash.swift in Sources */,
 				649DDD82605A09DDEA796C31 /* Unsplash_SwiftUIApp.swift in Sources */,
+				F6E562A325169A8300DA348E /* UnsplashStore.swift in Sources */,
 				649DDE1040ED97D783CF9725 /* ContentView.swift in Sources */,
 				F6E5629F2516991400DA348E /* Models.swift in Sources */,
 			);
