@@ -11,6 +11,8 @@
 		649DD194B8BA19194B5B728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649DD69648C84CB659C3AE43 /* Assets.xcassets */; };
 		649DDD82605A09DDEA796C31 /* Unsplash_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DD9E426C802DCB624A67C /* Unsplash_SwiftUIApp.swift */; };
 		649DDE1040ED97D783CF9725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DDFFFBF77FA33643092EA /* ContentView.swift */; };
+		F6E5629C2516968D00DA348E /* Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5629B2516968D00DA348E /* Unsplash.swift */; };
+		F6E5629F2516991400DA348E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5629E2516991400DA348E /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		649DD9E426C802DCB624A67C /* Unsplash_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_SwiftUIApp.swift; sourceTree = "<group>"; };
 		649DDA8513D9A0E38376A885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		649DDFFFBF77FA33643092EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6E5629B2516968D00DA348E /* Unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash.swift; sourceTree = "<group>"; };
+		F6E5629E2516991400DA348E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,11 +40,13 @@
 		649DD150D623135A80F8BF1A /* Unsplash-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F6E5629B2516968D00DA348E /* Unsplash.swift */,
 				649DD2E4BF35D1D40C3164B0 /* Info.plist */,
 				649DD69648C84CB659C3AE43 /* Assets.xcassets */,
 				649DD76616D3BA396823C2E7 /* Preview Content */,
 				649DD9E426C802DCB624A67C /* Unsplash_SwiftUIApp.swift */,
 				649DDFFFBF77FA33643092EA /* ContentView.swift */,
+				F6E5629E2516991400DA348E /* Models.swift */,
 			);
 			path = "Unsplash-SwiftUI";
 			sourceTree = "<group>";
@@ -94,11 +100,14 @@
 /* Begin PBXProject section */
 		649DD34A897DC88C92CF6341 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 649DDCF0F93D6FB63BB230B5 /* Build configuration list for PBXProject "Unsplash-SwiftUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 649DD208A1861C709225AB7C;
@@ -128,8 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E5629C2516968D00DA348E /* Unsplash.swift in Sources */,
 				649DDD82605A09DDEA796C31 /* Unsplash_SwiftUIApp.swift in Sources */,
 				649DDE1040ED97D783CF9725 /* ContentView.swift in Sources */,
+				F6E5629F2516991400DA348E /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +196,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -296,6 +306,7 @@
 				649DD45C1FE7661928274F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		649DDCF0F93D6FB63BB230B5 /* Build configuration list for PBXProject "Unsplash-SwiftUI" */ = {
 			isa = XCConfigurationList;
