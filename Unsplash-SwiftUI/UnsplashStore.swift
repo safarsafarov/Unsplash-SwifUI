@@ -13,7 +13,6 @@ class UnsplashStore {
     
     func fetch() {
         URLSession.shared.dataTask(with: UnsplashStore.url) { (data, response, error) in
-            
             guard let data = data, error == nil else {
                 return
             }
@@ -22,7 +21,7 @@ class UnsplashStore {
             }
             let viewModels = models
                 .map {$0.user}
-                .compactMap Model.init)
+                .compactMap(Model.init)
             DispatchQueue.main.async {
                 self.models = viewModels
             }
