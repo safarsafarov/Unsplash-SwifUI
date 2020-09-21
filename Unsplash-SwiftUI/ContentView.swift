@@ -23,6 +23,10 @@ struct ContentView_Previews: PreviewProvider {
 
 
 struct Home: View {
+    
+    @State var expand = false
+    @State var search = ""
+    
     var body: some View {
         VStack(spacing: 0) {
             HStack {
@@ -33,6 +37,12 @@ struct Home: View {
                     Text("Beautiful, Free Photos")
                         .font(.caption)
                 }
+                .foregroundColor(.black)
+                
+                Spacer()
+                
+                Image(systemName: "magnifyingglass")
+                    .foregroundColor(.gray)
             }
         }
     }
