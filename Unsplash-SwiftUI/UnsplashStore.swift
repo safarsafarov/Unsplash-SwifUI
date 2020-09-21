@@ -7,11 +7,14 @@
 
 import Foundation
 import Combine
+
+
 class UnsplashStore {
-    static let url = ""
+    static let url = URL(string: "")
     var models: [Model] = []
     
     func fetch() {
+        var request: URLRequest? = nil
         URLSession.shared.dataTask(with: UnsplashStore.url) { (data, response, error) in
             guard let data = data, error == nil else {
                 return

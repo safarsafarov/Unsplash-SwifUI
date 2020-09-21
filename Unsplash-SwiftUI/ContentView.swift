@@ -20,3 +20,20 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+struct Home: View {
+    var body: some View {
+        VStack(spacing: 0) {
+            HStack {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("UNSPLASH")
+                        .font(.title)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    Text("Beautiful, Free Photos")
+                        .font(.caption)
+                }
+            }
+        }
+    }
+}
