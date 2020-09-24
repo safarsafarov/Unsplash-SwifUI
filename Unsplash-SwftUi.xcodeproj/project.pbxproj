@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6236A70251CBA6A0039D8EF /* Unsplash_SwftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6236A6F251CBA6A0039D8EF /* Unsplash_SwftUiApp.swift */; };
+		F6236A72251CBA6A0039D8EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6236A71251CBA6A0039D8EF /* ContentView.swift */; };
+		F6236A74251CBA6C0039D8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6236A73251CBA6C0039D8EF /* Assets.xcassets */; };
+		F6236A77251CBA6C0039D8EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6236A76251CBA6C0039D8EF /* Preview Assets.xcassets */; };
+		F6236A82251CBA6C0039D8EF /* Unsplash_SwftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6236A81251CBA6C0039D8EF /* Unsplash_SwftUiTests.swift */; };
+		F6236A8D251CBA6C0039D8EF /* Unsplash_SwftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6236A8C251CBA6C0039D8EF /* Unsplash_SwftUiUITests.swift */; };
+		F6E6E753251D054300907BD6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F6E6E752251D054300907BD6 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6236A7E251CBA6C0039D8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6236A64251CBA6A0039D8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6236A6B251CBA6A0039D8EF;
+			remoteInfo = "Unsplash-SwftUi";
+		};
+		F6236A89251CBA6C0039D8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6236A64251CBA6A0039D8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6236A6B251CBA6A0039D8EF;
+			remoteInfo = "Unsplash-SwftUi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6236A6C251CBA6A0039D8EF /* Unsplash-SwftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash-SwftUi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6236A6F251CBA6A0039D8EF /* Unsplash_SwftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_SwftUiApp.swift; sourceTree = "<group>"; };
+		F6236A71251CBA6A0039D8EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6236A73251CBA6C0039D8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6236A76251CBA6C0039D8EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6236A78251CBA6C0039D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6236A7D251CBA6C0039D8EF /* Unsplash-SwftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unsplash-SwftUiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6236A81251CBA6C0039D8EF /* Unsplash_SwftUiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_SwftUiTests.swift; sourceTree = "<group>"; };
+		F6236A83251CBA6C0039D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6236A88251CBA6C0039D8EF /* Unsplash-SwftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unsplash-SwftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6236A8C251CBA6C0039D8EF /* Unsplash_SwftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_SwftUiUITests.swift; sourceTree = "<group>"; };
+		F6236A8E251CBA6C0039D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6236A69251CBA6A0039D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E6E753251D054300907BD6 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A7A251CBA6C0039D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A85251CBA6C0039D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6236A63251CBA6A0039D8EF = {
+			isa = PBXGroup;
+			children = (
+				F6236A6E251CBA6A0039D8EF /* Unsplash-SwftUi */,
+				F6236A80251CBA6C0039D8EF /* Unsplash-SwftUiTests */,
+				F6236A8B251CBA6C0039D8EF /* Unsplash-SwftUiUITests */,
+				F6236A6D251CBA6A0039D8EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6236A6D251CBA6A0039D8EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6236A6C251CBA6A0039D8EF /* Unsplash-SwftUi.app */,
+				F6236A7D251CBA6C0039D8EF /* Unsplash-SwftUiTests.xctest */,
+				F6236A88251CBA6C0039D8EF /* Unsplash-SwftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6236A6E251CBA6A0039D8EF /* Unsplash-SwftUi */ = {
+			isa = PBXGroup;
+			children = (
+				F6236A6F251CBA6A0039D8EF /* Unsplash_SwftUiApp.swift */,
+				F6236A71251CBA6A0039D8EF /* ContentView.swift */,
+				F6236A73251CBA6C0039D8EF /* Assets.xcassets */,
+				F6236A78251CBA6C0039D8EF /* Info.plist */,
+				F6236A75251CBA6C0039D8EF /* Preview Content */,
+			);
+			path = "Unsplash-SwftUi";
+			sourceTree = "<group>";
+		};
+		F6236A75251CBA6C0039D8EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6236A76251CBA6C0039D8EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6236A80251CBA6C0039D8EF /* Unsplash-SwftUiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6236A81251CBA6C0039D8EF /* Unsplash_SwftUiTests.swift */,
+				F6236A83251CBA6C0039D8EF /* Info.plist */,
+			);
+			path = "Unsplash-SwftUiTests";
+			sourceTree = "<group>";
+		};
+		F6236A8B251CBA6C0039D8EF /* Unsplash-SwftUiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6236A8C251CBA6C0039D8EF /* Unsplash_SwftUiUITests.swift */,
+				F6236A8E251CBA6C0039D8EF /* Info.plist */,
+			);
+			path = "Unsplash-SwftUiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6236A6B251CBA6A0039D8EF /* Unsplash-SwftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6236A91251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUi" */;
+			buildPhases = (
+				F6236A68251CBA6A0039D8EF /* Sources */,
+				F6236A69251CBA6A0039D8EF /* Frameworks */,
+				F6236A6A251CBA6A0039D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unsplash-SwftUi";
+			packageProductDependencies = (
+				F6E6E752251D054300907BD6 /* SDWebImageSwiftUI */,
+			);
+			productName = "Unsplash-SwftUi";
+			productReference = F6236A6C251CBA6A0039D8EF /* Unsplash-SwftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6236A7C251CBA6C0039D8EF /* Unsplash-SwftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6236A94251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUiTests" */;
+			buildPhases = (
+				F6236A79251CBA6C0039D8EF /* Sources */,
+				F6236A7A251CBA6C0039D8EF /* Frameworks */,
+				F6236A7B251CBA6C0039D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6236A7F251CBA6C0039D8EF /* PBXTargetDependency */,
+			);
+			name = "Unsplash-SwftUiTests";
+			productName = "Unsplash-SwftUiTests";
+			productReference = F6236A7D251CBA6C0039D8EF /* Unsplash-SwftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6236A87251CBA6C0039D8EF /* Unsplash-SwftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6236A97251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUiUITests" */;
+			buildPhases = (
+				F6236A84251CBA6C0039D8EF /* Sources */,
+				F6236A85251CBA6C0039D8EF /* Frameworks */,
+				F6236A86251CBA6C0039D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6236A8A251CBA6C0039D8EF /* PBXTargetDependency */,
+			);
+			name = "Unsplash-SwftUiUITests";
+			productName = "Unsplash-SwftUiUITests";
+			productReference = F6236A88251CBA6C0039D8EF /* Unsplash-SwftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6236A64251CBA6A0039D8EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F6236A6B251CBA6A0039D8EF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F6236A7C251CBA6C0039D8EF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F6236A6B251CBA6A0039D8EF;
+					};
+					F6236A87251CBA6C0039D8EF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F6236A6B251CBA6A0039D8EF;
+					};
+				};
+			};
+			buildConfigurationList = F6236A67251CBA6A0039D8EF /* Build configuration list for PBXProject "Unsplash-SwftUi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6236A63251CBA6A0039D8EF;
+			packageReferences = (
+				F6E6E751251D054300907BD6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = F6236A6D251CBA6A0039D8EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6236A6B251CBA6A0039D8EF /* Unsplash-SwftUi */,
+				F6236A7C251CBA6C0039D8EF /* Unsplash-SwftUiTests */,
+				F6236A87251CBA6C0039D8EF /* Unsplash-SwftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6236A6A251CBA6A0039D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6236A77251CBA6C0039D8EF /* Preview Assets.xcassets in Resources */,
+				F6236A74251CBA6C0039D8EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A7B251CBA6C0039D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A86251CBA6C0039D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6236A68251CBA6A0039D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6236A72251CBA6A0039D8EF /* ContentView.swift in Sources */,
+				F6236A70251CBA6A0039D8EF /* Unsplash_SwftUiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A79251CBA6C0039D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6236A82251CBA6C0039D8EF /* Unsplash_SwftUiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6236A84251CBA6C0039D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6236A8D251CBA6C0039D8EF /* Unsplash_SwftUiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6236A7F251CBA6C0039D8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6236A6B251CBA6A0039D8EF /* Unsplash-SwftUi */;
+			targetProxy = F6236A7E251CBA6C0039D8EF /* PBXContainerItemProxy */;
+		};
+		F6236A8A251CBA6C0039D8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6236A6B251CBA6A0039D8EF /* Unsplash-SwftUi */;
+			targetProxy = F6236A89251CBA6C0039D8EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6236A8F251CBA6C0039D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6236A90251CBA6C0039D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6236A92251CBA6C0039D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Unsplash-SwftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Unsplash-SwftUi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6236A93251CBA6C0039D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Unsplash-SwftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Unsplash-SwftUi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6236A95251CBA6C0039D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				INFOPLIST_FILE = "Unsplash-SwftUiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash-SwftUi.app/Unsplash-SwftUi";
+			};
+			name = Debug;
+		};
+		F6236A96251CBA6C0039D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				INFOPLIST_FILE = "Unsplash-SwftUiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash-SwftUi.app/Unsplash-SwftUi";
+			};
+			name = Release;
+		};
+		F6236A98251CBA6C0039D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				INFOPLIST_FILE = "Unsplash-SwftUiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unsplash-SwftUi";
+			};
+			name = Debug;
+		};
+		F6236A99251CBA6C0039D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
+				INFOPLIST_FILE = "Unsplash-SwftUiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Unsplash-SwftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unsplash-SwftUi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6236A67251CBA6A0039D8EF /* Build configuration list for PBXProject "Unsplash-SwftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6236A8F251CBA6C0039D8EF /* Debug */,
+				F6236A90251CBA6C0039D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6236A91251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6236A92251CBA6C0039D8EF /* Debug */,
+				F6236A93251CBA6C0039D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6236A94251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6236A95251CBA6C0039D8EF /* Debug */,
+				F6236A96251CBA6C0039D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6236A97251CBA6C0039D8EF /* Build configuration list for PBXNativeTarget "Unsplash-SwftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6236A98251CBA6C0039D8EF /* Debug */,
+				F6236A99251CBA6C0039D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6E6E751251D054300907BD6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6E6E752251D054300907BD6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6E6E751251D054300907BD6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F6236A64251CBA6A0039D8EF /* Project object */;
+}

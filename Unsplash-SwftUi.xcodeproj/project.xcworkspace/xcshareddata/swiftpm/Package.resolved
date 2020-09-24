@@ -12,7 +12,7 @@
       },
       {
         "package": "SDWebImageSwiftUI",
-        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI",
         "state": {
           "branch": null,
           "revision": "4c7f169e39bc35d6b80d42b8eb8301bee9cd0907",

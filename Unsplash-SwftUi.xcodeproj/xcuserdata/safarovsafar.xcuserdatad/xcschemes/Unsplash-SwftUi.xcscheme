@@ -7,10 +7,10 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "649DD45CE56B932FC4E126B6"
-               BuildableName = "Unsplash-SwiftUI.app"
-               BlueprintName = "Unsplash-SwiftUI"
-               ReferencedContainer = "container:Unsplash-SwiftUI.xcodeproj">
+               BlueprintIdentifier = "F6236A6B251CBA6A0039D8EF"
+               BuildableName = "Unsplash-SwftUi.app"
+               BlueprintName = "Unsplash-SwftUi"
+               ReferencedContainer = "container:Unsplash-SwftUi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -22,10 +22,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "649DD45CE56B932FC4E126B6"
-            BuildableName = "Unsplash-SwiftUI.app"
-            BlueprintName = "Unsplash-SwiftUI"
-            ReferencedContainer = "container:Unsplash-SwiftUI.xcodeproj">
+            BlueprintIdentifier = "F6236A6B251CBA6A0039D8EF"
+            BuildableName = "Unsplash-SwftUi.app"
+            BlueprintName = "Unsplash-SwftUi"
+            ReferencedContainer = "container:Unsplash-SwftUi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
